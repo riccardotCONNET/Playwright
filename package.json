@@ -1,0 +1,22 @@
+{
+  "name": "ui-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.3.3",
+    "allure-commandline": "^2.37.0",
+    "allure-playwright": "^3.5.0"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^12.7.0"
+  }
+}
